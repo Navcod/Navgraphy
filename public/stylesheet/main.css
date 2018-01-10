@@ -23,6 +23,7 @@ header {
 #categorie {
   margin: 0 10px;
   font-size: 0.9em;
+  letter-spacing: 3px;
 }
 
 #logo {
@@ -65,8 +66,9 @@ header {
 
 /* Body */
 body {
-  font-family: Lato;
+  font-family: 'Old Standard TT', serif;
   margin-bottom: 100px;
+  letter-spacing: 1px;
 }
 
 /* Gallary */
@@ -179,17 +181,5 @@ body {
 }
 
 /* FOOTER */
-#footerLogos {
-  text-align: center;
-  margin-top: 45px;
-  margin-bottom: 30px;
-  font-size: 1.8em;
-  
-}
 
-#footerLabel {
-  text-align-last: center;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  font-size: 0.9em;
-}
+
