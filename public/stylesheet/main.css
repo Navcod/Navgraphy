@@ -1,0 +1,188 @@
+/* Navbar */
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+  margin-top: 1.8%;
+}
+
+.transparent {
+    border-width: 0px;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    background-color: rgba(0,0,0,0.0);
+    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
+    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+}
+
+#categorie {
+  margin: 0 10px;
+  font-size: 1.1em;
+}
+
+#logo {
+ max-width: 300px;
+ margin: 0 auto;
+ margin-top: 30px;
+}
+
+/* Navbar collapsed */
+
+#collapsed-navigation {
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+    border-width:0;
+    border-radius:0;
+}
+
+.navbar-toggle {
+    width: 100%;
+    float: none;
+    margin: 0 0;
+    margin-top: 20px;
+    border-width:0;
+    border-radius:0;
+}
+
+#menucollapse {
+  font-size: 1.3em;
+  color: grey;
+  margin: 0;
+}
+
+.navbar .navbar-collapse {
+  width: 100%;
+  text-align: center;
+  margin: 1px 1px;
+  overflow: hidden;
+}
+
+/* Body */
+body {
+  font-family: Lato;
+}
+
+/* Gallary */
+.thumbnail {
+    width: 100%;
+    padding: 0 0;
+    margin: 0 1px;
+    border-color: transparent;
+}
+
+.col-sm-6 {
+	padding: 0.1px 0.1px;
+	margin:0 0;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+
+/* MOVIE */
+#movieTitle h2{
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.movieDescription {
+  margin-top: 40px;
+  margin-bottom: 100px;
+  text-align: center;
+  
+}
+
+/* ABOUT */
+#aboutContainer {
+  max-width: 1100px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.about{
+  text-align: center;
+  font-size: 1em;
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+#aboutTitle {
+  font-size: 1.5em;
+  margin: 40px auto;
+}
+
+/* CONTACT */
+
+#contact_text {
+  width: 40%;
+  margin: 0 30%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+#contact_text h5 {
+  margin-bottom: 40px;
+}
+
+#contact_text_adress {
+  margin: 35px 0;
+}
+
+#contact_text_contact{
+  margin: 30px 0;
+}
+
+#form {
+  width: 60%;
+  margin: 30PX 20%;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+#formfirst {
+  width: 40%;
+  margin: 0 30%;
+  margin-top: 100px;
+}
+
+
+/* CLIENTS */
+#clientsUl {
+  margin: 100px 0;
+}
+
+#clientsUl li {
+    list-style-type: none;
+    text-align: center;
+    margin: 15px 0;
+}
+
+
+/* LOGOS */
+.fa {
+  color: black;
+}
+
+/* FOOTER */
+#footerLogos {
+  text-align: center;
+  margin-top: 45px;
+  margin-bottom: 30px;
+  font-size: 1.8em;
+  
+}
+
+#footerLabel {
+  text-align-last: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 0.9em;
+}
