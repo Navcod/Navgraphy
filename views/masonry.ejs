@@ -1,9 +1,26 @@
 <% include ./partials/header %>
-
-
+	<title>Masonry Layout with Mazonry Plugin</title>
 	
 	<style>
+	* {
+	  -webkit-box-sizing: border-box;
+	     -moz-box-sizing: border-box;
+		  box-sizing: border-box;
+	}
+	#masonry {
+	    width: 100%;
+	    margin: 0 auto;
+	    
+	}
+
+	.item {
+	  float: inherit;
+	  padding: O;
+	  margin:0;
+	}
+
 	
+	#neu {min-width: 10px;max-width: 600px;min-height: 50px; background:#cfcfcf }
 
 	</style>
 </head>
@@ -50,6 +67,3 @@ var msnry = new Masonry( container, {
 
 </body>
 </html>
-
-
-<% include ./partials/footer %>

@@ -86,7 +86,27 @@ body {
 	margin:0 0;
 }
 
+/* MASONRY*/
+* {
+	  -webkit-box-sizing: border-box;
+	     -moz-box-sizing: border-box;
+		  box-sizing: border-box;
+	}
+	#masonry {
+	    width: 100%;
+	    margin: 0 auto;
+	    
+	}
 
+	.item {
+	  float: right;
+	  padding: O;
+	  margin:0;
+	  border: 0;
+	  border-color: transparent;
+	}
+
+	#neu {min-width: 10px;max-width: 600px;min-height: 50px; background:#cfcfcf }
 
 
 

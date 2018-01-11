@@ -1,82 +1,37 @@
 body {
-  background-color: #000;
+	background: url(https://static1.squarespace.com/static/59220879e58c62c542e0f6bd/5923e2daa5790abfac7de144/59273981be65943682942214/1495742870165/I+feel+it.jpg?format=2500w);
+	background-size: cover;
+	background-position: top;
+	font-family: 'Source Serif Pro', serif;
+	
+	color: white;
 }
 
 #landing-header {
-  z-index: 1;
-  position: relative;
   text-align: center;
-  padding-top: 40vh;
+	font-weight: 700;
+	font-size: 5em;
+	max-width: 900px;
+	margin: 0 auto;
+	margin-top: 450px;
 }
 
-#landing-header h1 {
-  color: #fff;
+html {
+	height: 100%;
 }
 
-.slideshow { 
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: 0;
-  list-style: none;
-  margin: 0;
-  padding: 0;
+#content {
+	text-align: center;
+	padding-top: 25%;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.4);
+
 }
 
-.slideshow li { 
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  opacity: 0;
-  z-index: 0;
-  animation: imageAnimation 50s linear infinite; 
-}
+hr {
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
 
-.slideshow li:nth-child(1) { 
-  background-image: url(https://static1.squarespace.com/static/59220879e58c62c542e0f6bd/592ac3b9c534a5adf882f2e0/5982eda4b8a79b0ae04c5ad3/1511344574420/Olivia+down.jpg?format=1500w) 
-}
-.slideshow li:nth-child(2) { 
-  background-image: url(https://static1.squarespace.com/static/59220879e58c62c542e0f6bd/592ac3b9c534a5adf882f2e0/5982eda415d5db8a0c3981c8/1513436293397/Olivia+beach.jpg?format=750w.jpeg);
-  animation-delay: 1s; 
-}
-.slideshow li:nth-child(3) { 
-  background-image: url(https://static1.squarespace.com/static/59220879e58c62c542e0f6bd/592ac3b9c534a5adf882f2e0/5a15548e085229dcccfbdf09/1513436293402/November+2.jpg?format=1000w);
-  animation-delay: 2s; 
-}
-.slideshow li:nth-child(4) { 
-  background-image: url(https://static1.squarespace.com/static/59220879e58c62c542e0f6bd/592ac3b9c534a5adf882f2e0/5966a1adccf210c11cac21cc/1513436293405/Sara+.jpg?format=750w);
-  animation-delay: 3s; 
-}
-.slideshow li:nth-child(5) { 
-  background-image: url(https://static1.squarespace.com/static/59220879e58c62c542e0f6bd/5923e2daa5790abfac7de144/5923e6b0bebafb6bfb074b65/1501627836921/moved+me-2.jpg?format=1500w);
-  animation-delay: 4s; 
-}
-
-@keyframes imageAnimation { 
-  0% { 
-    opacity: 1; 
-    animation-timing-function: ease-in;
-  }
-  10% {
-    opacity: 1;
-    animation-timing-function: ease-out;
-  }
-  20% {
-    opacity: 1
-  }
-  30% {
-    opacity: 1
-  }
-}
-
-/* Older browser support - .no-cssanimations class added by modernizr */
-.no-cssanimations .slideshow li {
-    opacity: 1;
 }
