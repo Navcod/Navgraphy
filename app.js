@@ -37,9 +37,10 @@ app.get("/contact", function(req, res){
     res.render("contact");
 });
 
-app.get("/masonry", function(req, res){
-    res.render("masonry");
+app.post("/contact", function(req, res){
+    res.render("contact");
 });
+
 
 
 

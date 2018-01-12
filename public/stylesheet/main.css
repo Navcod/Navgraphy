@@ -30,6 +30,8 @@ header {
  max-width: 300px;
  margin: 0 auto;
  margin-top: 30px;
+	  border: 0;
+	  border-color: transparent;
 }
 
 /* Navbar collapsed */
@@ -67,48 +69,40 @@ header {
 /* Body */
 body {
   font-family: 'Source Serif Pro', serif;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   letter-spacing: 1px;
   overflow: auto;
 }
 
-/* Gallary */
-.thumbnail {
-    width: 100%;
-    padding: 0 0;
-    margin: 0 1px;
-    border-color: transparent;
-    display: block;
-}
-
-.col-sm-6 {
-	padding: 0.1px 0.1px;
-	margin:0 0;
-}
-
-/* MASONRY*/
+/* MASONRY  GALLARY */
 * {
 	  -webkit-box-sizing: border-box;
 	     -moz-box-sizing: border-box;
 		  box-sizing: border-box;
 	}
-	#masonry {
-	    width: 100%;
-	    margin: 0 auto;
-	    
-	}
+	
+	.thumbnail {
+    width: 100%;
+    padding: 0 0;
+    display: block;
+    border: hidden;
+	  border-color: transparent;
+}
 
 	.item {
-	  float: right;
-	  padding: O;
-	  margin:0;
+	  min-width: 10px;
+	  max-width: 600px;
+	  min-height: 50px; 
+	  padding: 0 0;
+	  margin: auto;
 	  border: 0;
 	  border-color: transparent;
 	}
-
-	#neu {min-width: 10px;max-width: 600px;min-height: 50px; background:#cfcfcf }
-
-
+	
+	#masonry {
+	  margin: 0 auto;
+	}
+	
 
 /* MOVIE */
 #movieTitle h2{
@@ -192,11 +186,5 @@ body {
 }
 
 
-/* LOGOS */
-.fa {
-  color: black;
-}
-
-/* FOOTER */
 
 
